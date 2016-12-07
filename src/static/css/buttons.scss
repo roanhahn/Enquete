@@ -1,0 +1,97 @@
+.button{
+	border-color: $button-border-color;
+	border-width: 2px;
+	border-style: solid;
+	background: $button-bg-color;
+	font-family: $primary-font;
+	padding: $button-padding;
+	color: $button-color;
+	display: inline-block;
+	font-weight: 700;
+	font-size: $button-fontsize;
+	text-transform: $button-style;
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	-moz-transition: all 0.2s ease-in-out 0s;
+	-o-transition: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s;
+
+	
+
+	&:hover{
+		background: $button-bg-hover-color;
+		border-color: $button-border-hover-color;
+		color: $button-color-hover;
+	}
+
+	&-mobile-block{
+		@media all and (max-width: $breakpoint-mobile){
+			width: 100%;
+		}
+	}
+
+	&-inline{
+		margin: 0 5px 10px;
+	}
+
+	&-small{
+		font-size: 13px;
+		padding: 10px;
+
+		@media all and (max-width: $breakpoint-mobile){
+			font-size: 11px;
+		}
+	}
+
+	&-rounded{
+		-webkit-border-radius: 32px;
+		-moz-border-radius: 32px;
+		border-radius: 32px;
+	}
+
+	&-outline{
+		background: transparent;
+		color: $button-bg-color;
+		&:hover{
+
+		}
+	}
+
+	&-next{
+		margin-top: 15px;
+
+		& i{
+			font-weight: normal;
+			font-size: 14px;
+		}
+	}
+
+	&-block{
+		width: 100%;
+		margin-bottom: 7px;
+	}
+}
+
+.answer-selected, .answer-selected:hover, .answer-selected:focus{
+	background: #27ae60;
+	color: #fff;
+	border-color: #27ae60;
+}
+
+.emoticon{
+	border: none;
+	background: none;
+	margin: 0;
+	padding: 0;
+
+	&:hover{
+		opacity: 0.8;
+	}
+
+	& img{
+		width: $emoticon-size;
+
+		@media all and (max-width: $breakpoint-mobile){
+			width: 40px;
+		}
+	}
+}

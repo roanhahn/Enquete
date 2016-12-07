@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{site.title}} | {{title}}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta property="og:type" content="{{site.type}}" />
+    <meta property="og:title" content="{{title}}" />
+    <meta name="description" content="{{site.description}}" />
+    <meta property="og:url" content="{{site.url}}" />
+    <meta property="og:image" content="{{site.ogimage}}" />
+    <link href="{{assets}}/css/styles.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    {{> body }}
+    <!-- Our JavaScript -->
+    <script src="{{assets}}/js/app.js"></script>
+</body>
+</html>
