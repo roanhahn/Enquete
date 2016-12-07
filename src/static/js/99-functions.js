@@ -46,6 +46,16 @@ $(document).ready(function() {
 	  	$(this).toggleClass("answer-selected");
 	  });
 
+	  $('.start').click(function()
+	  {
+	  	$('.prev-btn').fadeIn(400);
+	  });
+
+	  $('.end').click(function()
+	  {
+	  	$('.prev-btn').fadeOut(400);
+	  });
+
 	});
 
 

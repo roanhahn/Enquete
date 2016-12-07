@@ -52,7 +52,9 @@
 		background: transparent;
 		color: $button-bg-color;
 		&:hover{
-
+			background: transparent;
+			color: $button-bg-color;
+			border-color: $button-border-color;
 		}
 	}
 
@@ -93,5 +95,28 @@
 		@media all and (max-width: $breakpoint-mobile){
 			width: 40px;
 		}
+	}
+}
+
+.prev-btn{
+	position: fixed;
+	display: none;
+	padding: 0;
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	bottom: 10px;
+	left: 10px;
+	z-index: 10;
+	border: 1px solid #ccc;
+	background: transparent;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+	&:before{
+		content: "\f060";
+		font-family: "FontAwesome";
 	}
 }
