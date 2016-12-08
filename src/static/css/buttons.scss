@@ -15,6 +15,13 @@
 	-o-transition: all 0.2s ease-in-out 0s;
 	transition: all 0.2s ease-in-out 0s;
 
+	&:focus{
+		outline: none !important;
+		-webkit-box-shadow: none !important;
+		-moz-box-shadow: none !important;
+		box-shadow: none !important;
+	}
+
 	
 
 	&:hover{
@@ -89,6 +96,14 @@
 		opacity: 0.8;
 	}
 
+	&:focus{
+		outline: none !important;
+		border: none !important;
+		-webkit-box-shadow: none !important;
+		-moz-box-shadow: none !important;
+		box-shadow: none !important;
+	}
+
 	& img{
 		width: $emoticon-size;
 
@@ -96,16 +111,35 @@
 			width: 40px;
 		}
 	}
+
+	&-selected:after{
+		content: "\f00c";
+		font-family: "FontAwesome";
+		color: $heading-color;
+		font-size: 26px;
+		font-weight: normal;
+		line-height: 22px;
+		letter-spacing: 0;
+		margin: 0;
+		width: 22px;
+		height: 22px;
+		position: absolute;
+		bottom: -25px;
+		left:50%;
+		-ms-transform: translate(-50%, 0);
+		-webkit-transform: translate(-50%, 0);
+		transform: translate(-50%, 0);
+	}
 }
 
 .prev-btn{
 	position: fixed;
 	display: none;
 	padding: 0;
-	width: 36px;
-	height: 36px;
+	width: 60px;
+	height: 60px;
 	text-align: center;
-	line-height: 36px;
+	line-height: 60px;
 	bottom: 10px;
 	left: 10px;
 	z-index: 10;
@@ -114,6 +148,7 @@
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
+	font-size: 25px;
 
 	&:before{
 		content: "\f060";

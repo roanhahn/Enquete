@@ -46,6 +46,7 @@ html, body{
 		display: inline-block;
 		font-size: 0px;
 		margin: 0px 5px;
+		position: relative;
 	}
 }
 
@@ -69,7 +70,7 @@ html, body{
 .slide{
 	&-wrapper{
 		position: relative;
-		min-height: 450px;
+		min-height: 500px;
 
 		@media all and (max-width: $breakpoint-mobile){
 			min-height: 350px;
@@ -86,7 +87,9 @@ html, body{
 		left: 0px;
 		width: 100%;
 		right: 0px;
-		bottom: 0;
+		bottom: 0%;
+		// background-color: green;
+		padding-bottom: 30px;
 	}
 }
 

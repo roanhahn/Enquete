@@ -46,6 +46,15 @@ $(document).ready(function() {
 	  	$(this).toggleClass("answer-selected");
 	  });
 
+	  $('.emoticon').click(function()
+	  {
+	  	// console.log($(this).closest('.rate'));
+	  	$(this).closest('.rate').find('.emoticon').removeClass("emoticon-selected");
+	  	$(this).addClass("emoticon-selected");
+	  	// $('.emoticon').removeClass("emoticon-selected");
+	  	// $(this).addClass("emoticon-selected");
+	  });
+
 	  $('.start').click(function()
 	  {
 	  	$('.prev-btn').fadeIn(400);
@@ -55,6 +64,9 @@ $(document).ready(function() {
 	  {
 	  	$('.prev-btn').fadeOut(400);
 	  });
+
+
+	  
 
 	});
 

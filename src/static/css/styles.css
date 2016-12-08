@@ -41,7 +41,8 @@ html, body {
   .rate li {
     display: inline-block;
     font-size: 0px;
-    margin: 0px 5px; }
+    margin: 0px 5px;
+    position: relative; }
 
 .questionNumber {
   font-size: 13px;
@@ -50,7 +51,7 @@ html, body {
 
 .slide-wrapper {
   position: relative;
-  min-height: 450px; }
+  min-height: 500px; }
   @media all and (max-width: 767px) {
     .slide-wrapper {
       min-height: 350px; } }
@@ -61,7 +62,8 @@ html, body {
   left: 0px;
   width: 100%;
   right: 0px;
-  bottom: 0; }
+  bottom: 0%;
+  padding-bottom: 30px; }
 
 .m-t-30 {
   margin-top: 30px !important; }
@@ -92,7 +94,11 @@ a {
   transition: all 0.2s ease-in-out 0s; }
 
 a:focus {
-  outline: 0; }
+  outline: none !important;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important; }
 
 .h1 {
   color: #212121;
@@ -149,6 +155,11 @@ a:focus {
   -moz-transition: all 0.2s ease-in-out 0s;
   -o-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s; }
+  .button:focus {
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important; }
   .button:hover {
     background: #cc071e;
     border-color: #cc071e;
@@ -196,20 +207,43 @@ a:focus {
   padding: 0; }
   .emoticon:hover {
     opacity: 0.8; }
+  .emoticon:focus {
+    outline: none !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important; }
   .emoticon img {
     width: 80px; }
     @media all and (max-width: 767px) {
       .emoticon img {
         width: 40px; } }
+  .emoticon-selected:after {
+    content: "\f00c";
+    font-family: "FontAwesome";
+    color: #212121;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 22px;
+    letter-spacing: 0;
+    margin: 0;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0); }
 
 .prev-btn {
   position: fixed;
   display: none;
   padding: 0;
-  width: 36px;
-  height: 36px;
+  width: 60px;
+  height: 60px;
   text-align: center;
-  line-height: 36px;
+  line-height: 60px;
   bottom: 10px;
   left: 10px;
   z-index: 10;
@@ -217,7 +251,8 @@ a:focus {
   background: transparent;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  border-radius: 50%; }
+  border-radius: 50%;
+  font-size: 25px; }
   .prev-btn:before {
     content: "\f060";
     font-family: "FontAwesome"; }
