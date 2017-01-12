@@ -82,9 +82,9 @@
 }
 
 .answer-selected, .answer-selected:hover, .answer-selected:focus{
-	background: #27ae60;
+	background: $ok-color;
 	color: #fff;
-	border-color: #27ae60;
+	border-color: $ok-color;
 }
 
 .emoticon{

@@ -162,8 +162,8 @@ a:focus {
     -moz-box-shadow: none !important;
     box-shadow: none !important; }
   .button:hover {
-    background: #e1001a;
-    border-color: #e1001a;
+    background: #0088d1;
+    border-color: #0088d1;
     color: #fff; }
   @media all and (max-width: 767px) {
     .button-mobile-block {
@@ -197,9 +197,9 @@ a:focus {
     margin-bottom: 7px; }
 
 .answer-selected, .answer-selected:hover, .answer-selected:focus {
-  background: #27ae60;
+  background: #0088d1;
   color: #fff;
-  border-color: #27ae60; }
+  border-color: #0088d1; }
 
 .emoticon {
   border: none;
@@ -281,6 +281,6 @@ a:focus {
     -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); }
   .user:hover {
-    color: #e1001a; }
+    color: #0088d1; }
 
 /*# sourceMappingURL=styles.css.map */
