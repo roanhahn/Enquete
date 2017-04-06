@@ -48,6 +48,33 @@ html, body{
 		margin: 0px 5px;
 		position: relative;
 	}
+
+	&-scale{
+
+		& li{
+			@media all and (max-width: $breakpoint-mobile){
+				margin: 0px 4px;
+			}
+		}
+		.value{
+			margin-bottom: 10px;
+			font-size: 16px;
+			@media all and (max-width: $breakpoint-mobile){
+				font-size: 12px;
+			}
+		}
+		& .emoticon img{
+
+			@media all and (max-width: $breakpoint-tablet){
+				width: 50px;
+			}
+
+			@media all and (max-width: $breakpoint-mobile){
+				width: 25px;
+			}
+			
+		}
+	}
 }
 
 .owl-wrapper{

@@ -43,6 +43,21 @@ html, body {
     font-size: 0px;
     margin: 0px 5px;
     position: relative; }
+  @media all and (max-width: 767px) {
+    .rate-scale li {
+      margin: 0px 4px; } }
+  .rate-scale .value {
+    margin-bottom: 10px;
+    font-size: 16px; }
+    @media all and (max-width: 767px) {
+      .rate-scale .value {
+        font-size: 12px; } }
+  @media all and (max-width: 991px) {
+    .rate-scale .emoticon img {
+      width: 50px; } }
+  @media all and (max-width: 767px) {
+    .rate-scale .emoticon img {
+      width: 25px; } }
 
 .questionNumber {
   font-size: 13px;
