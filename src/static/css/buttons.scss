@@ -157,6 +157,30 @@
 	}
 }
 
+.home-btn{
+	position: fixed;
+	display: none;
+	padding: 0;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	bottom: 10px;
+	right: 10px;
+	z-index: 10;
+	border: 1px solid #ccc;
+	background: transparent;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	font-size: 25px;
+
+	&:before{
+		content: "\f015";
+		font-family: "FontAwesome";
+	}
+}
+
 .user{
 	background: none;
 	border: none;

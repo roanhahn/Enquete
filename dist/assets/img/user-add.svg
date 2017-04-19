@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="560px" height="560px" viewBox="0 0 560 560" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch Beta 43 (38917) - http://www.bohemiancoding.com/sketch -->
+    <title>user</title>
+    <desc>Created with Sketch Beta.</desc>
+    <defs>
+        <circle id="path-1" cx="280" cy="280" r="280"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="user">
+            <g id="Oval" fill-rule="nonzero">
+                <use fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <circle stroke="#FFFFFF" stroke-width="25" cx="280" cy="280" r="267.5"></circle>
+            </g>
+            <g id="Group" transform="translate(138.000000, 137.000000)" stroke="#FFFFFF" stroke-width="19" stroke-linecap="square">
+                <path d="M145.5,1.02610125 L145.5,283.980753" id="Line"></path>
+                <path d="M0.363287654,141.671512 L290.645368,141.671512" id="Line"></path>
+            </g>
+        </g>
+    </g>
+</svg>

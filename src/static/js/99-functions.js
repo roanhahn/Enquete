@@ -58,11 +58,13 @@ $(document).ready(function() {
 	  $('.start').click(function()
 	  {
 	  	$('.prev-btn').fadeIn(400);
+	  	$('.home-btn').fadeIn(400);
 	  });
 
 	  $('.end').click(function()
 	  {
 	  	$('.prev-btn').fadeOut(400);
+	  	$('.home-btn').fadeOut(400);
 	  });
 
 
