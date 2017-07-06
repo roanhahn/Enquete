@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="560px" height="560px" viewBox="0 0 560 560" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch Beta 43 (38998) - http://www.bohemiancoding.com/sketch -->
+    <title>user-add</title>
+    <desc>Created with Sketch Beta.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="user-add">
+            <g id="Oval">
+                <g id="path-1-link" fill="#000000">
+                    <circle id="path-1" cx="280" cy="280" r="280"></circle>
+                </g>
+                <circle stroke="#FFFFFF" stroke-width="25" cx="280" cy="280" r="267.5"></circle>
+            </g>
+            <g id="006-back-arrow" transform="translate(106.000000, 122.000000)" fill-rule="nonzero" fill="#FFFFFF">
+                <path d="M131.833333,75.5528721 L131.833333,0.184725849 L0,132.078982 L131.833333,263.973238 L131.833333,186.720888 C226,186.720888 291.916667,216.868146 339,282.815274 C320.166667,188.605091 263.666667,94.3949086 131.833333,75.5528721 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
