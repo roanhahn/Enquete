@@ -367,6 +367,7 @@ a:focus {
 .user {
   background: none;
   border: none;
+  display: block;
   font-size: 18px;
   margin-bottom: 15px;
   text-align: left;
