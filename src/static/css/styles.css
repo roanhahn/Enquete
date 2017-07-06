@@ -2,6 +2,7 @@
 @import url(bootstrap.css);
 @import url(owl.carousel.css);
 @import url(owl.theme.css);
+@import url(components-md.css);
 html, body {
   -webkit-overflow-scrolling: touch;
   /* lets it scroll lazy */
@@ -372,7 +373,8 @@ a:focus {
   font-family: "Roboto", sans-serif;
   color: #212121;
   line-height: 1;
-  white-space: nowrap; }
+  white-space: nowrap;
+  padding: 0; }
   .user img {
     display: inline-block;
     margin-right: 15px;
