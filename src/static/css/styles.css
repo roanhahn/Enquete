@@ -222,7 +222,17 @@ a:focus {
 
 .new-account {
   display: block;
-  margin-top: 10px; }
+  margin-top: 10px;
+  color: #43ccb5; }
+  .new-account:hover {
+    color: #43ccb5; }
+
+.btn-primary {
+  background-color: #43ccb5;
+  border-color: #43ccb5; }
+  .btn-primary:hover {
+    background-color: #212121;
+    border-color: #212121; }
 
 .button {
   border-color: #212121;
@@ -247,8 +257,8 @@ a:focus {
     -moz-box-shadow: none !important;
     box-shadow: none !important; }
   .button:hover {
-    background: #0088d1;
-    border-color: #0088d1;
+    background: #43ccb5;
+    border-color: #43ccb5;
     color: #fff; }
   @media all and (max-width: 767px) {
     .button-mobile-block {
@@ -282,9 +292,9 @@ a:focus {
     margin-bottom: 7px; }
 
 .answer-selected, .answer-selected:hover, .answer-selected:focus {
-  background: #0088d1;
+  background: #43ccb5;
   color: #fff;
-  border-color: #0088d1; }
+  border-color: #43ccb5; }
 
 .emoticon {
   border: none;
@@ -389,6 +399,7 @@ a:focus {
     -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); }
   .user:hover {
-    color: #0088d1; }
+    color: #43ccb5;
+    text-decoration: none; }
 
 /*# sourceMappingURL=styles.css.map */

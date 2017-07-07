@@ -72,4 +72,19 @@
 {
     display: block;
     margin-top: 10px;
+    color:  $button-bg-hover-color;
+
+    &:hover{
+        color: $button-bg-hover-color;
+    }
+}
+
+.btn-primary{
+    background-color: $button-bg-hover-color;
+    border-color: $button-bg-hover-color;
+
+    &:hover{
+        background-color: $button-bg-color;
+        border-color: $button-bg-color;
+    }
 }
