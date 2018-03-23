@@ -3309,6 +3309,9 @@ $(document).ready(function() {
 	$('.next').click(function() {
 	    owl.trigger('next.owl.carousel');
 	})
+	$('.prev').click(function() {
+	    owl.trigger('prev.owl.carousel');
+	})
 
 	// var owl = $("#slider");
 
