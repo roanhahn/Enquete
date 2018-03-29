@@ -110,11 +110,11 @@ a {
   -webkit-transition: all 0.2s ease-in-out 0s;
   -moz-transition: all 0.2s ease-in-out 0s;
   -o-transition: all 0.2s ease-in-out 0s;
-  transition: all 0.2s ease-in-out 0s; }
+  transition: all 0.2s ease-in-out 0s;
+  outline: none !important; }
 
-a:focus {
+a:focus, button:focus, input:focus {
   outline: none !important;
-  border: none !important;
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
   box-shadow: none !important; }
@@ -124,7 +124,7 @@ a:focus {
   font-family: "Roboto", sans-serif;
   margin: 0 0 50px;
   padding: 0;
-  font-size: 45px;
+  font-size: 36px;
   font-weight: 400;
   line-height: 1.3; }
   @media all and (max-width: 767px) {
@@ -160,6 +160,74 @@ a:focus {
 
 .control-label {
   color: #000; }
+
+.searchForm-group {
+  position: relative;
+  margin-bottom: 60px; }
+.searchForm-field {
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  color: #000;
+  border: 0;
+  padding: 0 30px;
+  height: 70px;
+  font-size: 18px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  cursor: default;
+  -webkit-appearance: searchfield;
+  -moz-appearance: searchfield;
+  appearance: searchfield; }
+  .searchForm-field::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #616161; }
+  .searchForm-field::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #616161; }
+  .searchForm-field:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #616161; }
+  .searchForm-field:-moz-placeholder {
+    /* Firefox 18- */
+    color: #616161; }
+.searchForm-button {
+  position: absolute;
+  right: 7px;
+  top: 7px;
+  z-index: 5;
+  width: 56px;
+  height: 56px;
+  border: none;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  background: #fff;
+  text-alihn: center;
+  line-height: 52px;
+  padding: pc !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: #43ccb5;
+  font-size: 25px;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s; }
+  .searchForm-button:hover {
+    background: #43ccb5;
+    color: #fff; }
+  .searchForm-button i {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
 
 .form-signin {
   max-width: 330px;
