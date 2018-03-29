@@ -177,10 +177,7 @@ a:focus, button:focus, input:focus {
   width: 100%;
   position: relative;
   z-index: 1;
-  cursor: default;
-  -webkit-appearance: searchfield;
-  -moz-appearance: searchfield;
-  appearance: searchfield; }
+  cursor: default; }
   .searchForm-field::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     color: #616161; }

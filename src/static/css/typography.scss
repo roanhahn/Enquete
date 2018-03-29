@@ -109,9 +109,9 @@ a:focus, button:focus, input:focus {
 		z-index: 1;
 		cursor: default;
 		// font-weight: bold;
-		-webkit-appearance: searchfield;
-		-moz-appearance:    searchfield;
-		appearance:         searchfield;
+		// -webkit-appearance: searchfield;
+		// -moz-appearance:    searchfield;
+		// appearance:         searchfield;
 
 		&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 			color: $text-color;
