@@ -315,7 +315,8 @@ a:focus, button:focus, input:focus {
   -moz-transition: all 0.2s ease-in-out 0s;
   -o-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s;
-  margin-bottom: 7px; }
+  margin-bottom: 7px;
+  cursor: pointer; }
   .button:focus {
     outline: none !important;
     -webkit-box-shadow: none !important;
@@ -365,7 +366,8 @@ a:focus, button:focus, input:focus {
   border: none;
   background: none;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  cursor: pointer; }
   .emoticon:hover {
     opacity: 0.8; }
   .emoticon:focus {

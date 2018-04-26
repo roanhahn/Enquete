@@ -15,6 +15,7 @@
 	-o-transition: all 0.2s ease-in-out 0s;
 	transition: all 0.2s ease-in-out 0s;
 	margin-bottom: 7px;
+	cursor: pointer;
 
 	&:focus{
 		outline: none !important;
@@ -92,6 +93,7 @@
 	background: none;
 	margin: 0;
 	padding: 0;
+	cursor: pointer;
 
 	&:hover{
 		opacity: 0.8;
