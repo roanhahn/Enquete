@@ -31,6 +31,9 @@ $(document).ready(function() {
 	$('.prev').click(function() {
 	    owl.trigger('prev.owl.carousel');
 	})
+	$('.home').click(function() {
+	    owl.trigger('to.owl.carousel', [0, 0]);
+	})
 
 	// var owl = $("#slider");
 

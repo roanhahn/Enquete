@@ -1,3 +1,7 @@
+button{
+	cursor: pointer !important;
+	// background: red !important;
+}
 .button{
 	border-color: $button-border-color;
 	border-width: 2px;
@@ -92,7 +96,7 @@
 	border: none;
 	background: none;
 	margin: 0;
-	padding: 0;
+	padding: 3px;
 	cursor: pointer;
 
 	&:hover{
@@ -195,6 +199,7 @@
 	font-family: $primary-font;
 	color: $button-bg-color;
 	line-height: 1;
+	width: 100%;
 	white-space: nowrap;
 	padding: 0;
 
